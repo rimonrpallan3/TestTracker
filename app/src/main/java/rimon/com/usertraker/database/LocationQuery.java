@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
 import android.util.Log;
 
-import com.rimon.userlivetracking.model.LocationData;
+import rimon.com.usertraker.model.LocationData;
 
 import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.ArrayList;

@@ -29,11 +29,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.rimon.userlivetracking.R;
-import com.rimon.userlivetracking.adapter.UserTrackingAdapter;
-import com.rimon.userlivetracking.database.LocationQuery;
-import com.rimon.userlivetracking.model.LocationData;
-import com.rimon.userlivetracking.service.UserLocationTrackingService;
 
 import java.net.InetAddress;
 import java.sql.SQLIntegrityConstraintViolationException;
@@ -41,6 +36,12 @@ import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import rimon.com.usertraker.R;
+import rimon.com.usertraker.adapter.UserTrackingAdapter;
+import rimon.com.usertraker.database.LocationQuery;
+import rimon.com.usertraker.model.LocationData;
+import rimon.com.usertraker.service.UserLocationTrackingService;
 
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;

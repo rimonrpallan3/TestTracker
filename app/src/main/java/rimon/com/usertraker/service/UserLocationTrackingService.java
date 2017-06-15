@@ -16,7 +16,8 @@ import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.widget.Toast;
 
-import com.rimon.userlivetracking.activity.MainActivity;
+
+import rimon.com.usertraker.activity.MainActivity;
 
 /**
  *

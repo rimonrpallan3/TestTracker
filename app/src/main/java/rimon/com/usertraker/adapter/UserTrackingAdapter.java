@@ -7,10 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.rimon.userlivetracking.R;
-import com.rimon.userlivetracking.model.LocationData;
 
 import java.util.List;
+
+import rimon.com.usertraker.R;
+import rimon.com.usertraker.model.LocationData;
 
 /**
  *
